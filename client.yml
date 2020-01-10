@@ -11,3 +11,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+userinfo:
+  password: 123
+  name: root
